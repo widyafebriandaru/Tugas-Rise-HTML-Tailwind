@@ -6,27 +6,29 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-warna2">
-    <div id="header" class="bg-warna1">
+    <div id="header" class="bg-warna1 w-full fixed z-50">
       <div
         id="container"
         class="flex justify-between container mx-auto items-center px-4 py-4"
       >
         <div class="flex flex-wrap">
-          <p class="text-warna4 sm:text-2xl font-medium text-xl">Harijumat</p>
-          <div class="text-warna5 flex font-extrabold items-end">.com</div>
+          <a
+            href=""
+            class="text-warna4 sm:text-2xl font-medium text-lg hover:text-warna5"
+            >Harijumat</a
+          >
+          <a href="" class="text-warna5 flex font-extrabold items-end">.com</a>
         </div>
-        <div id="navbar" class="flex gap-4 text-warna4 font-bold">
-          <div class="nav-text"><a href="">Program</a></div>
-          <div class="nav-text"><a href="">Corporate</a></div>
-          <div class="nav-text"><a href="">About</a></div>
-          <div id="user">
-            <div id="Profil-pict"></div>
-            <div class="nav-text">Nama Profil-pict</div>
-          </div>
+        <div id="navbar" class="nav-text">
+          <div class="hover:text-warna5"><a href="">Program</a></div>
+          <div class="hover:text-warna5"><a href="">Corporate</a></div>
+          <div class="hover:text-warna5"><a href="">About</a></div>
+          <a href="" class="girl-image ml-2"></a>
+          <a href="" class="hidden sm:block">Nama</a>
         </div>
       </div>
     </div>
-    <div id="hero" class="">
+    <div id="hero" class="pt-20 sm:pt-16">
       <div class="container px-4 py-4 mx-auto flex justify-between">
         <div id="leftside" class="sm:w-[56%] w-full">
           <div class="font-extrabold text-4xl text-warna5">
@@ -46,11 +48,125 @@
               >Temukan Bootcamp Yang Tepat Untukmu</a
             >
           </div>
-          <div id="rating" class="flex justify-center sm:justify-start mt-3">
-            <div>Profil Pict</div>
-            <div id="rating-text">
-              <div id="bintang"></div>
-              <div id="review">(4.9/5 dari 3909 Alumni)</div>
+
+          <div id="rating" class="flex justify-start mt-3">
+            <div class="girl-image h-14 w-14 relative"></div>
+            <div class="girl-image h-14 w-14 relative right-[35px]"></div>
+            <div class="girl-image h-14 w-14 relative right-[70px]"></div>
+            <div class="rating-box absolute">
+              <div id="rating-text" class="relative items-center left-28">
+                <div id="bintang" class="flex">
+                  <svg
+                    class="svg1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      fill="#FCEA2B"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                    <path
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="2"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                  </svg>
+                  <svg
+                    class="svg1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      fill="#FCEA2B"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                    <path
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="2"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                  </svg>
+                  <svg
+                    class="svg1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      fill="#FCEA2B"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                    <path
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="2"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                  </svg>
+                  <svg
+                    class="svg1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      fill="#FCEA2B"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                    <path
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                      stroke-width="2"
+                      d="M35.993 10.736L27.791 27.37L9.439 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.624l-3.142-18.278l13.276-12.95l-18.354-2.66z"
+                    />
+                  </svg>
+                  <svg
+                    class="svg1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 72 72"
+                  >
+                    <path
+                      d="m35 11l9.209 15.87l18.352 2.674l-13.285 12.94l3.128 18.28L35 52.5V11Z"
+                    />
+                    <path
+                      fill="#FCEA2B"
+                      d="m37 11.5l-9.209 15.87L9.44 30.044l13.285 12.94l-3.128 18.28L37 52V11.5Z"
+                    />
+                    <path
+                      fill="#3F3F3F"
+                      d="m35 11l9.209 15.87l18.352 2.674l-13.285 12.94l3.128 18.28L35 52.5V11Z"
+                    />
+                    <g
+                      fill="none"
+                      stroke="#000"
+                      stroke-linecap="round"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linejoin="round"
+                        stroke-miterlimit="10"
+                        d="M35.993 10.736L27.79 27.37L9.44 30.044l13.285 12.94l-3.128 18.28l16.412-8.636l16.419 8.623l-3.142-18.277l13.276-12.95l-18.354-2.66l-8.214-16.628Z"
+                      />
+                      <path d="M36 11.5V49" />
+                    </g>
+                  </svg>
+                </div>
+                <div id="review" class="font-medium">
+                  (4.9/5 dari 3909 Alumni)
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -151,12 +267,12 @@
     <div id="secondary-content" class="bg-warna4">
       <div
         id="secondary-content-header"
-        class="px-4 container mx-auto text-2xl font-bold pt-6 flex justify-center sm:justify-start"
+        class="px-4 container mx-auto text-2xl font-bold pt-6 flex sm:text-start text-center"
       >
         Program Terbaik Harijumat.com
       </div>
       <div class="container mx-auto grid gap-5 grid-cols-4 px-4 py-5">
-        <div id="content" class="flex items-center">
+        <div id="content" class="program1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -184,9 +300,9 @@
               d="M265.336 61.603c64.636-38.761 129.272 54.133 193.908 15.372c5.924-3.585 10.727-1.327 10.727 6.714V372.98c0 8.579-4.223 15.849-10.236 18.756a6.269 6.269 0 0 0-.491.267c-64.636 38.761-129.299-54.213-193.908-15.372c-7.82 4.701-10.727 3.415-10.727-.994V75.825c0-7.865 4.803-10.636 10.727-14.222z"
             />
           </svg>
-          <a href="" class="program-text">Bootcamp</a>
+          <a href="">Bootcamp</a>
         </div>
-        <div id="content" class="flex items-center">
+        <div id="content" class="program1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="39.01"
@@ -199,9 +315,9 @@
               d="M28.241 21.774c-.855-.856-1.888-1.284-3.098-1.284s-2.246.432-3.11 1.296c-.852.852-1.284 1.888-1.284 3.098s.432 2.247 1.284 3.098l13.442 13.442l-13.43 13.43c-.864.864-1.296 1.9-1.308 3.11c.012 1.21.444 2.247 1.296 3.098c.864.852 1.9 1.284 3.098 1.296c1.222 0 2.259-.432 3.123-1.296l14.935-14.947c3.135-3.123 3.135-6.258 0-9.394L28.241 21.774Zm58.545 33.104c-.864-.864-1.913-1.296-3.135-1.296v-.006H54.817v.006c-1.222 0-2.26.432-3.123 1.296c-.864.864-1.296 1.901-1.296 3.123c0 1.222.432 2.271 1.296 3.135c.864.864 1.9 1.296 3.123 1.296v-.006H83.65v.006c1.222 0 2.27-.432 3.135-1.296c.864-.864 1.296-1.913 1.296-3.135c0-1.222-.432-2.259-1.296-3.123Z"
             />
           </svg>
-          <a href="" class="program-text">Coding Camp</a>
+          <a href="">Coding Camp</a>
         </div>
-        <div id="content" class="flex items-center">
+        <div id="content" class="program1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -223,9 +339,9 @@
               />
             </g>
           </svg>
-          <a href="" class="program-text">Proclass</a>
+          <a href="">Proclass</a>
         </div>
-        <div id="content" class="flex items-center">
+        <div id="content" class="program1">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"
@@ -262,7 +378,7 @@
               transform="rotate(-45.001 135.663 147.78)"
             />
           </svg>
-          <a href="" class="program-text">Video Course</a>
+          <a href="">Video Course</a>
         </div>
       </div>
     </div>

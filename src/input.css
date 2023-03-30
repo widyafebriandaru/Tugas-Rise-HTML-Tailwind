@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-text {
+    @apply text-sm sm:text-lg items-end flex gap-4 text-warna4 font-bold;
+  }
+  .main-content-text {
+    @apply shadow-sm py-2 md:py-6;
+  }
+  .girl-image {
+    background-image: url(/img/hero3.png);
+    @apply bg-cover sm:w-10 sm:h-10 rounded-full border-slate-600 h-6 w-6;
+  }
+  .program1 {
+    @apply sm:flex items-center sm:text-lg text-sm pl-2 text-warna1 font-bold hover:text-warna5;
+    @apply justify-center text-center;
+  }
+}
+
+@layer utilities {
+  svg {
+    @apply sm:w-10 sm:h-10 w-8 h-8 mx-auto sm:mx-0;
+  }
+  .svg1 {
+    @apply w-4 h-4 sm:w-6 sm:w-6 right-16;
+  }
+}
