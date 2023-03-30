@@ -6,12 +6,15 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-warna2">
+    
+    <!-- HEADER START -->
+
     <div id="header" class="bg-warna1 w-full fixed z-50">
       <div
         id="container"
         class="flex justify-between container mx-auto items-center px-4 py-4"
       >
-        <div class="flex flex-wrap">
+        <div class="flex">
           <a
             href=""
             class="text-warna4 sm:text-2xl font-medium text-lg hover:text-warna5"
@@ -19,23 +22,34 @@
           >
           <a href="" class="text-warna5 flex font-extrabold items-end">.com</a>
         </div>
-        <div id="navbar" class="nav-text">
-          <div class="hover:text-warna5 hidden sm:flex" ><a href="">Program</a></div>
-          <div class="hover:text-warna5 hidden sm:flex"><a href="">Corporate</a></div>
-          <div class="hover:text-warna5 hidden sm:flex"><a href="">About</a></div>
-          <a href="" class="girl-image ml-2">
+        <div class="nav-text">
+          <div class="nav-text-hover">
+            <a href="">Program</a>
+          </div>
+          <div class="nav-text-hover">
+            <a href="">Corporate</a>
+          </div>
+          <div class="nav-text-hover">
+            <a href="">About</a>
+          </div>
+          <a href="" class="girl-image ml-2 h-6">
             <img
               src="img/hero3.png"
               class="w-full h-full object-scale-down"
               alt=""
           /></a>
-          <a href="" class="hidden sm:block">Nama</a>
+          <a href="" class="nav-text-hover">Nama</a>
         </div>
       </div>
     </div>
+
+    <!-- HEADER END -->
+
+    <!-- HERO START-->
+
     <div id="hero" class="pt-20 sm:pt-16">
       <div class="container px-4 py-10 mx-auto flex justify-between">
-        <div id="leftside" class="sm:w-[56%] w-full">
+        <div id="leftside" class="sm:w-[56%]">
           <div class="font-extrabold text-4xl text-warna5">
             Raih Karir Impian <span class="text-warna1">Walau</span>
             <span class="text-warna4"> Pindah Jalur Karir</span>
@@ -48,31 +62,31 @@
           </div>
           <div class="flex mt-3">
             <a
-              class="sm:px-2 px-1 text-xs sm:text-base bg-warna5 py-2 rounded-lg text-warna3 font-bold hover:shadow-lg hover:text-warna1"
+              class="sm:px-2 px-1 text-xs sm:text-base bg-warna5 py-2 rounded-lg
+               text-warna3 font-bold hover:shadow-lg hover:text-warna1"
               href=""
               >Temukan Bootcamp Yang Tepat Untukmu</a
             >
           </div>
-
-          <div id="rating" class="flex justify-start mt-3 ">
+          <div id="rating" class="flex justify-start mt-3">
             <div class="girl-image relative">
               <img
                 src="img/hero1.jpg"
-                class="w-full h-full object-cover object-top"
+                class="rating-image"
                 alt=""
               />
             </div>
             <div class="girl-image relative right-[20px]">
               <img
                 src="img/hero1.jpg"
-                class="w-full h-full object-cover object-top"
+                class="rating-image"
                 alt=""
               />
             </div>
             <div class="girl-image relative right-[40px]">
               <img
                 src="img/hero1.jpg"
-                class="w-full h-full object-cover object-top"
+                class="rating-image"
                 alt=""
               />
             </div>
@@ -193,11 +207,16 @@
             </div>
           </div>
         </div>
+
         <div id="rightside" class="sm:block w-[44%] hidden">
           <img src="img/hero3.png" alt=":D" class="w-52 mx-auto" />
         </div>
       </div>
     </div>
+
+    <!-- HERO END -->
+
+    <!-- CONTENT 1 START -->
 
     <div id="main-content" class="bg-warna3">
       <div
@@ -287,10 +306,15 @@
       </div>
     </div>
 
+    <!-- CONTENT 1 END -->
+
+    <!-- CONTENT 2 START -->
+
     <div id="secondary-content" class="bg-warna4">
       <div
         id="secondary-content-header"
-        class="container mx-auto text-lg sm:text-2xl font-semibold sm:font-bold pt-6 flex justify-center flex text-center"
+        class="container mx-auto text-lg sm:text-2xl font-semibold 
+        sm:font-bold pt-6 flex justify-center flex text-center"
       >
         Program Terbaik Harijumat.com
       </div>
@@ -405,5 +429,8 @@
         </div>
       </div>
     </div>
+
+    <!-- CONTENT 2 END -->
+
   </body>
 </html>

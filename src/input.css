@@ -6,6 +6,10 @@
   .nav-text {
     @apply flex text-sm sm:text-lg items-end gap-4 text-warna4 font-bold;
   }
+  .nav-text-hover{
+    @apply hover:text-warna5 hidden sm:flex
+  }
+
   .main-content-text {
     @apply shadow-sm py-2 md:py-6;
   }
@@ -16,6 +20,11 @@
     @apply sm:flex items-center sm:text-lg text-sm pl-2 text-warna1 font-bold hover:text-warna5;
     @apply justify-center text-center;
   }
+
+  .rating-image{
+    @apply w-full h-full object-cover object-top
+  }
+
 }
 
 @layer utilities {
