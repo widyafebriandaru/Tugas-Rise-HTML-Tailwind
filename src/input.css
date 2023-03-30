@@ -10,7 +10,7 @@
     @apply shadow-sm py-2 md:py-6;
   }
   .girl-image {
-    @apply bg-cover rounded-full h-10 w-12 overflow-hidden; 
+    @apply rounded-full h-10 w-10 overflow-hidden; 
   }
   .program1 {
     @apply sm:flex items-center sm:text-lg text-sm pl-2 text-warna1 font-bold hover:text-warna5;

@@ -582,10 +582,9 @@ video {
 
 .girl-image {
   height: 2.5rem;
-  width: 3rem;
+  width: 2.5rem;
   overflow: hidden;
   border-radius: 9999px;
-  background-size: cover;
 }
 
 .program1 {
@@ -638,6 +637,22 @@ video {
 
 .right-\[56px\] {
   right: 56px;
+}
+
+.right-\[51px\] {
+  right: 51px;
+}
+
+.right-\[5px\] {
+  right: 5px;
+}
+
+.right-\[20px\] {
+  right: 20px;
+}
+
+.right-\[40px\] {
+  right: 40px;
 }
 
 .z-50 {
@@ -754,9 +769,19 @@ video {
   background-color: rgb(24 2 12 / var(--tw-bg-opacity));
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .object-scale-down {
   -o-object-fit: scale-down;
      object-fit: scale-down;
+}
+
+.object-top {
+  -o-object-position: top;
+     object-position: top;
 }
 
 .px-1 {
