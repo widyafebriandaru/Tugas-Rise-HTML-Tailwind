@@ -4,7 +4,7 @@
 
 @layer components {
   .nav-text {
-    @apply text-sm sm:text-lg items-end flex gap-4 text-warna4 font-bold;
+    @apply flex text-sm sm:text-lg items-end gap-4 text-warna4 font-bold;
   }
   .main-content-text {
     @apply shadow-sm py-2 md:py-6;

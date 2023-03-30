@@ -6,7 +6,7 @@
     <link href="dist/output.css" rel="stylesheet" />
   </head>
   <body class="bg-warna2">
-    <div id="header" class="bg-warna1 w-full fixed z-51">
+    <div id="header" class="bg-warna1 w-full fixed z-50">
       <div
         id="container"
         class="flex justify-between container mx-auto items-center px-4 py-4"
@@ -20,9 +20,9 @@
           <a href="" class="text-warna5 flex font-extrabold items-end">.com</a>
         </div>
         <div id="navbar" class="nav-text">
-          <div class="hover:text-warna5"><a href="">Program</a></div>
-          <div class="hover:text-warna5"><a href="">Corporate</a></div>
-          <div class="hover:text-warna5"><a href="">About</a></div>
+          <div class="hover:text-warna5 hidden sm:flex" ><a href="">Program</a></div>
+          <div class="hover:text-warna5 hidden sm:flex"><a href="">Corporate</a></div>
+          <div class="hover:text-warna5 hidden sm:flex"><a href="">About</a></div>
           <a href="" class="girl-image ml-2">
             <img
               src="img/hero3.png"
@@ -34,7 +34,7 @@
       </div>
     </div>
     <div id="hero" class="pt-20 sm:pt-16">
-      <div class="container px-4 py-4 mx-auto flex justify-between">
+      <div class="container px-4 py-10 mx-auto flex justify-between">
         <div id="leftside" class="sm:w-[56%] w-full">
           <div class="font-extrabold text-4xl text-warna5">
             Raih Karir Impian <span class="text-warna1">Walau</span>
@@ -48,13 +48,13 @@
           </div>
           <div class="flex mt-3">
             <a
-              class="sm:px-2 px-1 bg-warna5 py-2 rounded-lg text-warna3 font-bold hover:shadow-lg hover:text-warna1"
+              class="sm:px-2 px-1 text-xs sm:text-base bg-warna5 py-2 rounded-lg text-warna3 font-bold hover:shadow-lg hover:text-warna1"
               href=""
               >Temukan Bootcamp Yang Tepat Untukmu</a
             >
           </div>
 
-          <div id="rating" class="flex justify-start mt-3">
+          <div id="rating" class="flex justify-start mt-3 ">
             <div class="girl-image relative">
               <img
                 src="img/hero1.jpg"
@@ -76,7 +76,7 @@
                 alt=""
               />
             </div>
-            <div class="rating-box absolute">
+            <div class="rating-box absolute z-10">
               <div id="rating-text" class="relative items-center left-28">
                 <div id="bintang" class="flex">
                   <svg
@@ -201,7 +201,7 @@
 
     <div id="main-content" class="bg-warna3">
       <div
-        class="container mx-auto grid gap-5 grid-cols-2 sm:grid-cols-4 w-full px-4 py-7 text-warna5 font-semibold"
+        class="container mx-auto grid gap-2 sm:gap-5 grid-cols-2 sm:grid-cols-4 w-full px-4 py-7 text-warna5 font-normal sm:font-semibold text-center sm:text-left"
       >
         <div class="main-content-text">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
@@ -290,7 +290,7 @@
     <div id="secondary-content" class="bg-warna4">
       <div
         id="secondary-content-header"
-        class="px-4 container mx-auto text-2xl font-bold pt-6 flex sm:text-start text-center"
+        class="container mx-auto text-lg sm:text-2xl font-semibold sm:font-bold pt-6 flex justify-center flex text-center"
       >
         Program Terbaik Harijumat.com
       </div>
