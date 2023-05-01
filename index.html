@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="dist/output.css" rel="stylesheet" />
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body class="bg-warna2">
-    
     <!-- HEADER START -->
 
     <div id="header" class="bg-warna1 w-full fixed z-50">
@@ -32,13 +33,31 @@
           <div class="nav-text-hover">
             <a href="">About</a>
           </div>
-          <a href="" class="girl-image ml-2 h-6">
+
+          <a href="" class="girl-image ml-2 h-6 nav-text-hover">
             <img
               src="img/hero3.png"
               class="w-full h-full object-scale-down"
               alt=""
           /></a>
+
           <a href="" class="nav-text-hover">Nama</a>
+
+          <!-- Hamburger Menu Start -->
+          <a class="flex sm:hidden" href="#" id="hamburger-menu"
+            ><i data-feather="menu"></i
+          ></a>
+          <div class="hamburger-nav">
+            <div class="hamburger-text">
+              <a href="">Program</a>
+            </div>
+            <div class="hamburger-text">
+              <a href="">Corporate</a>
+            </div>
+            <div class="hamburger-text">
+              <a href="">About</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -62,33 +81,20 @@
           </div>
           <div class="flex mt-3">
             <a
-              class="sm:px-2 px-1 text-xs sm:text-base bg-warna5 py-2 rounded-lg
-               text-warna3 font-bold hover:shadow-lg hover:text-warna1"
+              class="sm:px-2 px-1 text-xs sm:text-base bg-warna5 py-2 rounded-lg text-warna3 font-bold hover:shadow-lg hover:text-warna1"
               href=""
               >Temukan Bootcamp Yang Tepat Untukmu</a
             >
           </div>
           <div id="rating" class="flex justify-start mt-3">
             <div class="girl-image relative">
-              <img
-                src="img/hero1.jpg"
-                class="rating-image"
-                alt=""
-              />
+              <img src="img/hero1.jpg" class="rating-image" alt="" />
             </div>
             <div class="girl-image relative right-[20px]">
-              <img
-                src="img/hero1.jpg"
-                class="rating-image"
-                alt=""
-              />
+              <img src="img/hero1.jpg" class="rating-image" alt="" />
             </div>
             <div class="girl-image relative right-[40px]">
-              <img
-                src="img/hero1.jpg"
-                class="rating-image"
-                alt=""
-              />
+              <img src="img/hero1.jpg" class="rating-image" alt="" />
             </div>
             <div class="rating-box absolute z-10">
               <div id="rating-text" class="relative items-center left-28">
@@ -313,8 +319,7 @@
     <div id="secondary-content" class="bg-warna4">
       <div
         id="secondary-content-header"
-        class="container mx-auto text-lg sm:text-2xl font-semibold 
-        sm:font-bold pt-6 flex justify-center flex text-center"
+        class="container mx-auto text-lg sm:text-2xl font-semibold sm:font-bold pt-6 flex justify-center flex text-center"
       >
         Program Terbaik Harijumat.com
       </div>
@@ -431,6 +436,9 @@
     </div>
 
     <!-- CONTENT 2 END -->
-
   </body>
+  <script>
+    feather.replace();
+  </script>
+  <script src="src/script.js"></script>
 </html>

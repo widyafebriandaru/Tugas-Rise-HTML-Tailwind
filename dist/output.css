@@ -639,6 +639,28 @@ video {
      object-position: top;
 }
 
+.hamburger-nav{
+  background-color: #18020C;
+  position: absolute;
+  top: 100%;
+  right: -100%;
+  width: 17rem;
+  height: 100vh;
+  transition: 0.3s;
+}
+
+.hamburger-text{
+  color: #BBCBCB;
+  display: block;
+  margin: 1.5rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+
+.hamburger-nav.active{
+  right: 0;
+}
+
 .fixed {
   position: fixed;
 }
@@ -943,6 +965,10 @@ svg {
 @media (min-width: 640px) {
   .sm\:block {
     display: block;
+  }
+
+  .sm\:hidden {
+    display: none;
   }
 
   .sm\:w-\[56\%\] {

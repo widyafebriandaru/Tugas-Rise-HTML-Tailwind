@@ -25,6 +25,29 @@
     @apply w-full h-full object-cover object-top
   }
 
+  .hamburger-nav{
+
+    background-color: #18020C;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    width: 17rem;
+    height: 100vh;
+    transition: 0.3s;
+  }
+
+  .hamburger-text{
+    color: #BBCBCB;
+    display: block;
+    margin: 1.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
+
+  .hamburger-nav.active{
+    right: 0;
+  }
+
 }
 
 @layer utilities {
