@@ -14,3 +14,21 @@ if(!hamburger.contains(e.target) && !navbarNav.contains(e.target)) {
     navbarNav.classList.remove("active");
 }
 })
+
+
+// Dynamic Text
+
+let textDinamis = document.querySelector(".dynamic-text > p");
+
+let dynamic_text = ["Pindah Jalur Karir","Kurang Pengalaman","Pindah Jurusan","Belum Lulus Kuliah"];
+let countText = 0;
+
+setInterval(changeText,4000);
+
+function changeText(){
+textDinamis.innerHTML = dynamic_text[countText];
+countText++;
+if(countText === dynamic_text.length){
+    countText = 0;
+}
+}

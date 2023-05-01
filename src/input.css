@@ -48,8 +48,24 @@
     right: 0;
   }
 
+  .change-text{
+    animation: fadeInOut 4s infinite;
 }
 
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+
+  }
+
+}
 @layer utilities {
   svg {
     @apply sm:w-10 sm:h-10 w-8 h-8 mx-auto sm:mx-0;
