@@ -84,6 +84,7 @@ function siginInSuccess(userName) {
     successAlert.classList.remove("active");
   }, 3500);
   document.querySelector("#login").innerHTML = cutString(userName);
+  document.querySelector("#login2").innerHTML = cutString(userName);
 }
 
 
