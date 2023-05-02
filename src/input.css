@@ -61,6 +61,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    background: #9590AB;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 997;
+    transition: 0.6s;
+    border-radius: 10px;
+    padding: 20px 30px;
+    font-weight: 700;
+    color: #18020C;
+
+  }
+
+  .center.active{
+    visibility: visible;
+    opacity: 1;
+    transition: 0.6s;
   }
 
 
