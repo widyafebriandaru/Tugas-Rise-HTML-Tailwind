@@ -32,3 +32,21 @@ if(countText === dynamic_text.length){
     countText = 0;
 }
 }
+
+//LOGIN
+
+const popupLogin = document.querySelector(".popup");
+
+
+document.querySelector("#login").onclick = () => {
+  popupLogin.classList.toggle("active");
+};
+
+
+document.querySelector("#login2").onclick = () => {
+  popupLogin.classList.toggle("active");
+};
+
+document.querySelector(".popup .close-btn").onclick = () => {
+  popupLogin.classList.remove("active");
+};

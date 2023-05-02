@@ -17,8 +17,8 @@
       >
         <div class="flex">
           <a
-            href=""
-            class="text-warna4 sm:text-2xl font-medium text-lg hover:text-warna5"
+            href="#"
+            class="text-warna4 sm:text-2xl font-medium text-lg hover:text-warna5" 
             >Harijumat</a
           >
           <a href="" class="text-warna5 flex font-extrabold items-end">.com</a>
@@ -41,7 +41,7 @@
               alt=""
           /></a>
 
-          <a href="" class="nav-text-hover">Nama</a>
+          <a href="#" class=" nav-text-hover" id="login">Log in</a>
 
           <!-- Hamburger Menu Start -->
           <a class="flex sm:hidden" href="#" id="hamburger-menu"
@@ -49,13 +49,16 @@
           ></a>
           <div class="hamburger-nav">
             <div class="hamburger-text">
-              <a href="">Program</a>
+              <a href="#" id="login2">Login </a>
             </div>
             <div class="hamburger-text">
-              <a href="">Corporate</a>
+              <a href="#">Program</a>
             </div>
             <div class="hamburger-text">
-              <a href="">About</a>
+              <a href="#">Corporate</a>
+            </div>
+            <div class="hamburger-text">
+              <a href="#">About</a>
             </div>
           </div>
         </div>
@@ -71,7 +74,7 @@
         <div id="leftside" class="sm:w-[56%]">
           <div class="font-extrabold text-4xl text-warna5">
             Raih Karir Impian <span class="text-warna1">Walau</span>
-            <span id="words" class="text-warna4 dynamic-text"><p class="change-text"> </p></span>
+            <span id="words" class="text-warna4 dynamic-text"><p class="change-text">Belum Lulus Kuliah</p></span>
           </div>
           <div class="text-lg font-medium">
             Kuasai skill dan dapatkan pekerjaan impianmu. Sudah 3909 alumni
@@ -436,6 +439,36 @@
     </div>
 
     <!-- CONTENT 2 END -->
+
+
+    <!-- POP LOGIN START -->
+
+    <!-- <div class="center">
+      <button id="show-login">Login</button>
+    </div> -->
+    <div class="popup" id="popup">
+      <div class="close-btn">&times;</div>
+      <div class="form">
+        <h2>Log in</h2>
+        <div class="form-element">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-element">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter password">
+        </div>
+        <div class="form-element">
+          <button>Sign in</button>
+        </div>
+        <div class="form-element">
+          <a href="#">Forgot password</a>
+        </div>
+      </div>
+    </div>
+
+
+
   </body>
   <script>
     feather.replace();
